@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    height: 650px;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    grid-template-columns: 34% 24% 42%;
+    grid-template-rows: 24% 62% 14%;
+}
+
+#color-box {
+    background: radial-gradient( farthest-side at bottom right, #2196f3, #9c27b0 );
+
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+    grid-column-end: 2;
+    grid-row-end: 4;
+
+    display: grid;
+    grid-template-columns: 28% 22% 50%;
+    grid-template-rows: 10% 32% 10% 48%;
+}
+
+#front-card {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#back-card {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+#container-total {
+    width: 370px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+#container-name {
+    margin-bottom: 25px;
+}
+
+#container-card-number {
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 13px;
+}
+
+#card-name-input {
+    height: 24px;
+    width: 362px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+#card-info-input {
+    height: 24px;
+    width: 362px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+#container-date-cvc {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    margin-bottom: 25px;
+}
+
+#month-input {
+    height: 24px;
+    width: 65px;
+    margin-right: 7px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+#year-input {
+    height: 24px;
+    width: 65px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+#cvc-input {
+    height: 24px;
+    width: 150px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+button {
+    height: 30px;
+    width: 370px;
+    background-color: #220930;
+    color: white;
+    border-width: 1px;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+}
